@@ -20,7 +20,7 @@ cc_library_shared {
     name: "libcameraservice",
 
     product_variables: {
-        du: {
+        pearl: {
             target_camera_needs_client_info: {
                 cppflags: ["-DTARGET_NEEDS_CLIENT_INFO"],
             },
